@@ -1,6 +1,6 @@
 <H1>This contains the practice codes for Python Language<H1>
 <dl>
-  <dt>001</dt>
+  <dt>Practice_Python/Python_001</dt>
   <dd>
     <ul>
       <li>Hello World Program</li>
