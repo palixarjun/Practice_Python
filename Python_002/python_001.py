@@ -21,3 +21,19 @@ print('accessing the elements in the string')
 for i in range((len(mylist) - 1)):
     print(('mylist[{}] = {}').format(i, mylist[i]))
     
+#checking if the element exists in the list
+if 'apple' in mylist_2:
+    print('The element "apple" exists in the mylist_2.')
+    
+if 'arjun' in mylist_2:
+    print('"arjun" exists in the mylist_2.')
+else:
+    print('"arjun" does not exists in the mylist_2.')
+    
+#chaning the elements in the list
+print("current mylist:", mylist)
+x = int(input('enter the element you want to insert :'))
+y = int(input('enter the index:'))
+mylist[y] = x
+print('new list = ', mylist)
+    
